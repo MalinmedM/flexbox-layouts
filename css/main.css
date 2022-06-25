@@ -96,9 +96,11 @@ textarea {
    ========================================================================== */
 
 html {
-  background-color: #fff;
+  /*background-color: #fff;*/
   height: 100%;
   width: 100%;
+  font-size: 1em;
+  line-height: 1.4;
 }
 
 body {
@@ -106,37 +108,40 @@ body {
   padding: 0 2em;
   font-size: 1.25em;
   height: 100%;
-  color: #fff;
+  background-color: #ff91af;
+}
+
+header {
+  font-family: 'Tiro Gurmukhi', serif;
+  font-size: 3em;
 }
 
 header,
 footer {
-  background-color: #222;
+  background-color: #ff91af;
   height: 80px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  color: #fff;
 }
 
 main {
-  background-color: #ccc;
-  height: 250px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: #ff91af;
+  color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.5em;
 }
 
 header,
 footer,
 main {
-
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 1em;
 }
 
 .flex-container {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -145,14 +150,32 @@ main {
 
 .flex-items {
   color: #fff;
-  line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  width: 30%;
-  height: 200px;
+  line-height: 1.5;
+  font-size: 1.2em;
+  background-color: #ff91af;
+  width: 28%;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 1em;
+}
+
+#div-1, #div-2 {
+  border: medium dashed #f16059;
+  border-top: 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+
+}
+
+span {
+  font-family: 'Tiro Gurmukhi', serif;
+  font-weight: bold;
+}
+
+.footer-img {
+  padding: 0.8em;
+  width: 50px;
 }
 
 /* ==========================================================================
